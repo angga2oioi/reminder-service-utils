@@ -1,6 +1,7 @@
 // @ts-check
 module.exports = {
     ...require('./error'),
-    ...require("./reminder")
+    ...require("./reminder"),
+    ...require("./rpc.router")
   };
   
