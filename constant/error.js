@@ -1,0 +1,22 @@
+module.exports = {
+
+    UNHANDLED_ERR_CODE: -1,
+  
+    SUCCESS_ERR_CODE: 200,
+    SUCCESS_ERR_MESSAGE: 'Success',
+  
+    NO_ACCESS_ERR_CODE: 401,
+    NO_ACCESS_ERR_MESSAGE: 'Unauthorized',
+  
+    NOT_FOUND_ERR_CODE: 404,
+    NOT_FOUND_ERR_MESSAGE: 'Not found',
+  
+    BAD_REQUEST_ERR_CODE: 400,
+    BAD_REQUEST_ERR_MESSAGE: 'Bad Request',
+  
+    SERVICE_UNAVAILABLE_ERR_CODE: 503,
+    SERVICE_UNAVAILABLE_ERR_MESSAGE: 'Service Unavailable',
+  
+    MQ_NOT_READY_ERR_MESSAGE: 'MQ NOT READY',
+  };
+  
