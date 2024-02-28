@@ -32,3 +32,14 @@ exports.sanitizeEmail = (string) => {
 
   return `${realname}@${domain}`.trim().toLowerCase();
 };
+
+exports.parseSortBy = (sortBy) => {
+  let sortField = {};
+
+  sortBy.split(",").forEach((sortOption) => {
+      const [key, order] = sortOption.split(":");
+      sortField[key] = order === "desc" ? -1 : 1;
+  });
+
+  return sortField;
+};
